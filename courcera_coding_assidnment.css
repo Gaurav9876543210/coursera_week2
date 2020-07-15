@@ -1,0 +1,148 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    
+}
+.heading{
+    text-align:center;
+    font-size: 360%;
+    margin: auto;
+}
+
+.Pl{
+    float: left;
+}
+.ch{
+    background-color:rgb(29, 205, 211);
+    float: right;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    font-size: 190%;
+}
+.su{
+    background-color:rgb(198, 218, 18);
+    float: right;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    font-size: 190%;
+}
+.be{
+    background-color: rgb(24, 192, 61);
+    float: right;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    font-size: 190%;
+}
+.chp{
+    clear: right;
+    padding: 15px;
+}
+#chicken{
+    width: 31%;
+    margin: 6px;
+    background-color: lightgray;
+    border:2px solid black;
+}
+#beef{
+    width: 31%;
+    margin: 6px;
+    background-color: lightgray;
+    border:2px solid black;
+}
+#suschi{
+    width: 31%;
+    margin: 6px;
+    background-color: lightgray;
+    border:2px solid black;
+}
+
+@media  (max-width:767px){
+    .ch{
+        background-color: rgb(29, 205, 211);
+        float: right;
+        border: 2px solid black;
+        margin-bottom: 10px;
+        font-size: 190%;
+    }
+    .su{
+        background-color: rgb(198, 218, 18);
+        float: right;
+        border: 2px solid black;
+        margin-bottom: 10px;
+        font-size: 190%;
+    }
+    .be{
+        background-color: rgb(24, 192, 61);
+        float: right;
+        border: 2px solid black;
+        margin-bottom: 10px;
+        font-size: 190%;
+    }
+    .chp{
+        clear: right;
+        padding: 15px;
+    }
+    #chicken{
+        width: 98%;
+        margin: 2px;
+        background-color: lightgray;
+        border:2px solid black;
+    }
+    #beef{
+        width: 98%;
+        margin: 2px;
+        background-color: lightgray;
+        border:2px solid black;
+    }
+    #suschi{
+        width: 98%;
+        margin: 2px;
+        background-color: lightgray;
+        border:2px solid black;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .ch{
+        background-color: rgb(29, 205, 211);
+        float: right;
+        border: 2px solid black;
+        margin-bottom: 10px;
+        font-size: 190%;
+    }
+    .su{
+        background-color: rgb(198, 218, 18);
+        float: right;
+        border: 2px solid black;
+        margin-bottom: 10px;
+        font-size: 190%;
+    }
+    .be{
+        background-color: rgb(24, 192, 61);
+        float: right;
+        border: 2px solid black;
+        margin-bottom: 10px;
+        font-size: 190%;
+    }
+    .chp{
+        clear: right;
+        padding: 15px;
+    }
+    #chicken{
+        width: 47%;
+        margin: 6px;
+        background-color: lightgray;
+        border:2px solid black;
+    }
+    #beef{
+        width: 47%;
+        margin: 6px;
+        background-color: lightgray;
+        border:2px solid black;
+    }
+    #suschi{
+        width: 96%;
+        margin: 6px;
+        background-color: lightgray;
+        border:2px solid black;
+    }
+}
